@@ -15,4 +15,5 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
           repository: nebular10/publish-packages/game
+          
           tag_with_sha: true
